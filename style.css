@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    padding: 0;
+    margin:0;
+ }
+.header-container{
+    background-color: rgb(21, 1, 63);
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.header-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin: 0 10px 0 0;
+    padding: 0;
+}
+.logo{
+    font-family: "Times New Roman" serif;
+    font-size: large;
+    font-weight: 900;
+}
