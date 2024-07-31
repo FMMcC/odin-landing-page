@@ -2,11 +2,11 @@ body{
     display: flex;
     padding: 0;
     margin:0;
-    flex-direction: column; /*added because moved header from first container*/
+    flex-direction: column;
  }
  .section{
     display: flex;
-    padding: 20px 150px;
+    padding: 70px 140px;
     flex: 1
  }
 
@@ -18,14 +18,13 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 150px;
+    padding: 10px 140px;
 }
-
  ul{
     list-style: none;
     display: flex;
     gap: 10px;
-    margin: 0 10px 0 0;
+    margin: 0;
     padding: 0;
 }
 .logo{
@@ -33,20 +32,71 @@ body{
     font-size: large;
     font-weight: 900;
 }
-
-/*first section*/
+h1,h2,p{
+    margin: 0;
+    padding: 0;
+}
+/*section 1*/
 .section.one{
-flex: 1;
-gap: 10px;
-    
+gap: 20px;
+justify-content: space-between;
+align-items: center;
 }
-
 .left{
+    display: flex;
+    flex-direction: column;
     flex:1 1 auto;
-    width: 100px
+    width: 100px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 5px;
 }
-
-.knife{
+.image-container{
+    display: flex;
+    width: 100px;
+    flex: 1 1 auto;
+}
+/* .knife */
+img{
 width: 100px;
 flex: 1 1 auto;
+}
+
+/*section 2*/
+.section.two{
+    flex-direction: column;
+    align-items: center;
+/*     flex: 1; */
+    /* padding: 10px 300px 70px; */
+}
+.images{
+    display: flex;
+    gap: 20px;
+    flex: 1 1 auto;
+    justify-content: flex-end;
+}
+.image-pair{
+    display: flex;
+    flex-direction: column;
+/*     width: 100px; */
+    flex: 1/*  1 auto */;
+    /* align-items: center; */
+/*     flex-wrap: wrap; */
+}
+
+.icon-image{
+    border-radius: 25px;
+    border: 2px solid pink;
+}
+/* 
+.icon-image{
+    width: 200px;
+    flex: 1 1 auto;
+} 
+ */
+ 
+.text.center{
+/*     width:100px; */
+    text-align: center;
+    flex: 1 1 auto;
 }

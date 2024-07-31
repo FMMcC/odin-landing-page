@@ -1,2 +1,6 @@
 Image credits
--- Happiness is a piece of cake: Photo by Antonio Quagliata: https://www.pexels.com/photo/happiness-is-a-piece-of-cake-close-up-photography-227432/
+1. Photo by Antonio Quagliata: https://www.pexels.com/photo/happiness-is-a-piece-of-cake-close-up-photography-227432/
+2. Image by <a href="https://pixabay.com/users/applespc-19095802/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7743464">ApplesPC</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7743464">Pixabay</a>
+3. Image by <a href="https://pixabay.com/users/applespc-19095802/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7743456">ApplesPC</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7743456">Pixabay</a>
+4. Image by <a href="https://pixabay.com/users/applespc-19095802/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7743440">ApplesPC</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7743440">Pixabay</a>
+5. Image by <a href="https://pixabay.com/users/applespc-19095802/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7743434">ApplesPC</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7743434">Pixabay</a>
