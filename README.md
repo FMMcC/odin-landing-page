@@ -13,6 +13,7 @@ Things I found challenging (and have now improved on!):
 - Knowing if I should keep the TOP copyright for the layout - have erred on the safe side and kept it!
 - Committing as often as I should have. Definitely scrapped some early versions because I couldn't see where I went wrong and didn't have a good commit to fall back on. On the plus side - lots of div practice!
 - Good commit messages
+- Surprised by 'upstream is gone' git notifications
 
 Things I did well this time round (must have sunk in now!):
 - colours (colors :P)
