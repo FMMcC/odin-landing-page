@@ -1,14 +1,19 @@
 body{
     display: flex;
-    padding: 0;
     margin:0;
     flex-direction: column;
  }
  .section{
     display: flex;
-    padding: 70px 140px;
+    flex-direction: column;
+    padding: 70px 160px;
     flex: 1
  }
+
+.section.middle{
+    padding-left: 200px;
+    padding-right: 200px;
+    }
 
 .dark{
     background-color: rgb(21, 1, 63);
@@ -32,15 +37,33 @@ body{
     font-size: large;
     font-weight: 900;
 }
-h1,h2,p{
+h1,h2, h3,p{
     margin: 0;
     padding: 0;
 }
-/*section 1*/
+
+img{
+    flex: 1 1 auto;
+}
+
+.curve,
+button{
+    border-radius: 10px;
+}
+button{
+    background-color: palevioletred;
+    padding: 5px 20px;
+    border-style: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+
 .section.one{
-gap: 20px;
-justify-content: space-between;
-align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
 }
 .left{
     display: flex;
@@ -56,47 +79,73 @@ align-items: center;
     width: 100px;
     flex: 1 1 auto;
 }
-/* .knife */
-img{
-width: 100px;
-flex: 1 1 auto;
+.knife{
+    width: 100px;
 }
 
-/*section 2*/
+
 .section.two{
-    flex-direction: column;
-    align-items: center;
-/*     flex: 1; */
-    /* padding: 10px 300px 70px; */
+/*     align-items: center; */
+    gap: 35px;
+    padding-top: 35px;
+}
+h2{
+    text-align: center;
+    font-size: 36px;
 }
 .images{
     display: flex;
     gap: 20px;
     flex: 1 1 auto;
-    justify-content: flex-end;
+/*     justify-content: flex-end; */
 }
 .image-pair{
     display: flex;
     flex-direction: column;
-/*     width: 100px; */
-    flex: 1/*  1 auto */;
-    /* align-items: center; */
-/*     flex-wrap: wrap; */
-}
-
-.icon-image{
-    border-radius: 25px;
-    border: 2px solid pink;
-}
-/* 
-.icon-image{
-    width: 200px;
+    width: 100px;
     flex: 1 1 auto;
-} 
- */
- 
+
+/*     align-items: stretch; */
+    /* flex-wrap: wrap; */
+}
+/* .image-container{
+    flex: 1 1 auto;
+} */
+.icon-image{
+    border: 2px solid palevioletred;
+    flex: 1 1 auto;
+}
 .text.center{
-/*     width:100px; */
+    /* width:100px; */
     text-align: center;
     flex: 1 1 auto;
 }
+
+
+.section.three{
+/*     flex-direction: column; */
+    background-color: whitesmoke;
+}
+.call-box{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: palevioletred;
+    color: antiquewhite;
+    padding: 20px;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.four button{
+    border: 2px solid antiquewhite;
+}
+
+.quote{
+font-style: italic;
+font-size: 36px;
+}
+cite{
+    font-weight: bold;
+    align-self: flex-end;
+}
+
