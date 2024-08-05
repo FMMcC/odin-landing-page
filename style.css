@@ -2,12 +2,13 @@ body{
     display: flex;
     margin:0;
     flex-direction: column;
+    font-size: 18px;
  }
  .section{
     display: flex;
     flex-direction: column;
     padding: 70px 160px;
-    flex: 1
+    flex: 1;
  }
 
 .section.middle{
@@ -23,25 +24,29 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 140px;
+    flex: 1;
+
 }
  ul{
     list-style: none;
     display: flex;
-    gap: 10px;
+    gap: 15px;
     margin: 0;
     padding: 0;
 }
 .logo{
     font-family: "Times New Roman" serif;
-    font-size: large;
+    font-size: 24px;
     font-weight: 900;
 }
-h1,h2, h3,p{
+h1,p{
     margin: 0;
     padding: 0;
 }
-
+.hero{
+    font-size: 48px;
+    font-weight:900;
+}
 img{
     flex: 1 1 auto;
 }
@@ -58,12 +63,14 @@ button{
     font-weight: bold;
 }
 
-
 .section.one{
-    flex-direction: row;
-    gap: 20px;
+    gap: 70px;
     justify-content: space-between;
-    align-items: center;
+    padding-top: 10px;
+}
+.half{
+    display: flex;
+    gap: 20px;
 }
 .left{
     display: flex;
@@ -89,7 +96,7 @@ button{
     gap: 35px;
     padding-top: 35px;
 }
-h2{
+h1{
     text-align: center;
     font-size: 36px;
 }
@@ -131,10 +138,14 @@ h2{
     flex-wrap: wrap;
     background-color: palevioletred;
     color: antiquewhite;
-    padding: 20px;
+    padding: 25px 50px;
     gap: 10px;
     justify-content: space-between;
     align-items: center;
+}
+
+.call-header{
+    font-weight: bold;
 }
 .four button{
     border: 2px solid antiquewhite;
@@ -148,4 +159,8 @@ cite{
     font-weight: bold;
     align-self: flex-end;
 }
-
+.footer{
+    padding: 20px;
+    text-align: center;
+/*     font-size: small; */
+}
